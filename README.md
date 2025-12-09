@@ -10,3 +10,14 @@ file trọng số mô hình đã huấn luyện (`transformer_best.pt`) được
 ## 3. Cách chạy Demo
 1. Tải file model từ link trên và để vào thư mục `checkpoints/`.
 2. Chạy notebook `Inference.ipynb`.
+## 4. VLSP 2025 – Dịch Máy Tiếng Anh ↔ Tiếng Việt Lĩnh vực Y khoa
+**Fine-tune Qwen2-1.5B-Instruct trên dữ liệu OPUS100 (EN-VI) đã lọc theo từ khóa y tế**
+1. Tải bộ dữ liệu song ngữ EN-VI từ **OPUS100**  
+2. Lọc chỉ giữ lại các câu có chứa từ khóa y tế (doctor, patient, treatment, hospital, …)
+3. Fine-tune **Qwen/Qwen2-1.5B-Instruct** bằng LoRA + 4-bit quantization (tiết kiệm VRAM, chạy được trên Colab T4 16 GB)  
+4. Đánh giá bằng **BLEU**, **ROUGE-L**, vẽ biểu đồ BLEU từng câu và phân tích lỗi dịch chi tiết
+## Cách chạy nhanh (Google Colab)
+https://colab.research.google.com/drive/1WzqM2EYKRfq0bLLFrP6c7GPOWCANlnKP?authuser=1#scrollTo=k1BfqJZ_VFg7
+1. Mở link Colab ở trên  
+2. Runtime → Change runtime type → GPU (T4 hoặc tốt hơn)  
+3. Chạy lần lượt từng cell (Shift + Enter)
