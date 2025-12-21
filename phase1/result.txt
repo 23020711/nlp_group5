@@ -1,0 +1,37 @@
+Đang đọc dữ liệu test...
+Số lượng câu test: 1268
+Bắt đầu dịch (Phase 1 - Baseline)...
+100%|██████████| 1268/1268 [02:04<00:00, 10.19it/s]
+WARNING:sacrebleu:That's 100 lines that end in a tokenized period ('.')
+WARNING:sacrebleu:It looks like you forgot to detokenize your test data, which may hurt your score.
+WARNING:sacrebleu:If you insist your data is detokenized, or don't care, you can suppress this message with the `force` parameter.
+
+========================================
+KET QUA PHASE 1 (BASELINE)
+BLEU SCORE: 11.69
+========================================
+
+--- PHÂN TÍCH LỖI (ERROR ANALYSIS) ---
+Tìm các câu chứa ký tự lỗi HTML (&apos;, &quot;,...):
+
+ID  : 0
+Input : Khi tôi còn nhỏ , Tôi nghĩ rằng BắcTriều Tiên là đất nước tốt nhất trên thế giới và tôi thường hát bài &quot; Chúng ta chẳng có gì phải ghen tị . &quot;
+Ref   : When I was little , I thought my country was the best on the planet , and I grew up singing a song called &quot; Nothing To Envy . &quot;
+Pred  : when i was a little bit old , i think that the best world is the best nation in the world , and i &apos;m always not afraid that we should have to worry about war .
+-> PHÁT HIỆN LỖI: &apos;
+------------------------------
+ID  : 1
+Input : Tôi đã rất tự hào về đất nước tôi .
+Ref   : And I was very proud .
+Pred  : i was so proud of my country .
+------------------------------
+ID  : 2
+Input : Ở trường , chúng tôi dành rất nhiều thời gian để học về cuộc đời của chủ tịch Kim II- Sung , nhưng lại không học nhiều về thế giới bên ngoài , ngoại trừ việc Hoa Kỳ , Hàn Quốc và Nhật Bản là kẻ thù của chúng tôi .
+Ref   : In school , we spent a lot of time studying the history of Kim Il-Sung , but we never learned much about the outside world , except that America , South Korea , Japan are the enemies .
+Pred  : in the case , we spent a lot of time to learn about the favelas of the slums of the world , but not so many of the world , except by the united states , the japanese and the japanese , the japanese , the japanese , the japanese
+------------------------------
+...
+Ref   : Power outages also became more and more frequent , so everything around me was completely dark at night except for the sea of lights in China , just across the river from my home .
+Pred  : the pig did it , so much more than all of the time , so everything i &apos;ve been around my hands when i was sitting with the dark eye of the country , except a national south .
+-> PHÁT HIỆN LỖI: &apos;
+------------------------------
