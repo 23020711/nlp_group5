@@ -27,8 +27,8 @@ NLP/
 ├── Problem2/
 │   ├── Train.ipynb            # Huấn luyện Qwen2.5 với QLoRA
 │   ├── evaluate.ipynb         # Đánh giá trên tập test y tế
-│   ├── massive_eval_results.csv
-│   ├── translation_comparison_report.png
+│   ├── massive_eval_results.csv               # Chi tiết kết quả những câu đã dịch
+│   ├── translation_comparison_report.png      # Báo cáo So sánh 2 chiều dịch
 │   └── model.txt              # Link tải model fine-tuned
 └── transformer_from_scratch/
     ├── transformer.py         # Kiến trúc Transformer từ đầu
