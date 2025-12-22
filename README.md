@@ -15,8 +15,8 @@ NLP/
 ├── Problem1/
 │   ├── phase1/          # Baseline với word-level tokenization
 │   ├── phase2/          # Cải thiện preprocessing + Label Smoothing
-│   ├── phase3/          # Thử nghiệm BPE (chưa thành công)
-│   ├── phase4/          # Tối ưu kiến trúc + BPE + Noam Scheduler
+│   ├── phase3/          # Thử nghiệm BPE (model sập, chưa thành công)
+│   ├── phase4/          # Tối ưu kiến trúc + BPE + Noam Scheduler (model sập)
 │   ├── phase5/          # Beam Search + BPE
 │   └── phase6/          # Best version: BPE + Noam + Beam Search + training dài
 │       ├── training_inference_evaluate_pipeline.ipynb
@@ -89,7 +89,8 @@ NLP/
    - Dịch 1000 mẫu test với prompt chuẩn
    - Tính BLEU, TER, Semantic Score (BERTScore)
    - Xuất báo cáo và biểu đồ so sánh
-4. Link model kaggle được lưu ở file model.txt nếu muốn sử dụng
+4. Link model kaggle được lưu ở file model.txt nếu muốn sử dụng.
+
 **LƯU Ý: NÊN SỬ DỤNG PROMPT TRONG file evaluate.ipynb và xử lý EARLY STOP response như trong file đó để đưa ra kết quả tốt nhất, TÔI ĐÃ THỬ NHỮNG PROMPT KHÁC NHƯNG MODEL BỊ ẢO GIÁC VÀ CỐ GEN HẾT TỪ TRONG TOKEN CHO PHÉP**
 
 **Kết quả mẫu:**
