@@ -10,6 +10,7 @@ Dự án này thực hiện hai bài toán chính:
 
 ```
 NLP/
+├── Report.pdf           # Report project
 ├── .gitignore
 ├── README.md
 ├── Problem1/
