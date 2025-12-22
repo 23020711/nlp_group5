@@ -1,2 +1,2 @@
-link model:
+link model(epoch 25 for best result):
 https://drive.google.com/drive/folders/1EFHkBiKI_ROUSEuful5PBRcKuEbhnh6B?usp=drive_link
