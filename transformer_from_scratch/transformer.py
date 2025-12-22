@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 
-from conponents import PositionalEncoding, MultiHeadAttention, PositionwiseFeedForward
+from transformer_from_scratch.conponents import PositionalEncoding, MultiHeadAttention, PositionwiseFeedForward
 
 
 class EncoderLayer(nn.Module):
