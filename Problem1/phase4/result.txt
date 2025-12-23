@@ -1,0 +1,66 @@
+
+SAFE MODE + BEAM SEARCH RESULT
+BLEU SCORE: 0.54
+========================================
+
+--- Examples ---
+SRC : Khi tôi còn nhỏ , Tôi nghĩ rằng BắcTriều Tiên là đất nước tốt nhất trên thế giới và tôi thường hát bài " Chúng ta chẳng có gì phải ghen tị . "
+REF : When I was little , I thought my country was the best on the planet , and I grew up singing a song called " Nothing To Envy . "
+PRED: So I 'm going to show you a little bit about what I want to do .
+--------------------
+SRC : Tôi đã rất tự hào về đất nước tôi .
+REF : And I was very proud .
+PRED: So I 'm going to show you a little bit about what I want to do .
+--------------------
+SRC : Ở trường , chúng tôi dành rất nhiều thời gian để học về cuộc đời của chủ tịch Kim II- Sung , nhưng lại không học nhiều về thế giới bên ngoài , ngoại trừ việc Hoa Kỳ , Hàn Quốc và Nhật Bản là kẻ thù của chúng tôi .
+REF : In school , we spent a lot of time studying the history of Kim Il-Sung , but we never learned much about the outside world , except that America , South Korea , Japan are the enemies .
+PRED: So I 'm going to show you a little bit about what I want to do .
+--------------------
+
+Params (Safe Mode): 10,105,664
+Training Safe Mode...
+
+
+Epoch 01 | Time: 3.9m | Loss: 1.9734
+
+
+Epoch 02 | Time: 4.0m | Loss: 1.7140
+
+
+Epoch 03 | Time: 4.0m | Loss: 1.6391
+
+
+Epoch 04 | Time: 4.0m | Loss: 1.5902
+
+
+Epoch 05 | Time: 4.0m | Loss: 1.5695
+
+
+Epoch 06 | Time: 4.0m | Loss: 1.5485
+
+
+Epoch 07 | Time: 4.0m | Loss: 1.5273
+
+
+Epoch 08 | Time: 4.0m | Loss: 1.5229
+
+
+Epoch 09 | Time: 3.9m | Loss: 1.5131
+
+
+Epoch 10 | Time: 4.0m | Loss: 1.4996
+
+
+Epoch 11 | Time: 4.0m | Loss: 1.4920
+
+
+Epoch 12 | Time: 4.0m | Loss: 1.4907
+
+
+Epoch 13 | Time: 4.0m | Loss: 1.4820
+
+
+Epoch 14 | Time: 4.0m | Loss: 1.4810
+
+
+Epoch 15 | Time: 4.0m | Loss: 1.4666
